@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://jade-sunburst-0d6886.netlify.app/"
 title: Juam Blog
 paginate: 5
 theme: PaperMod
