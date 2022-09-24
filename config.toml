@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://main--jade-sunburst-0d6886.netlify.app/"
 languageCode = "en-us"
 title = "John Doe Resume"
 theme = "hugo-orbit-theme"
