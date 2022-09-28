@@ -61,15 +61,20 @@ params:
     enabled: true # needs to be explicitly set
     title: DevOps and SRE
     subtitle: "Welcome to my Blog"
-    imageUrl: "https://avatars.githubusercontent.com/u/20755569?s=400&u=cacea77d40ace3d368bf70ec062be1f77395608f&v=4"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    # imageUrl: "https://avatars.githubusercontent.com/u/20755569?s=400&u=cacea77d40ace3d368bf70ec062be1f77395608f&v=4"
+    imageUrl: "avatar.png"
+    imageWidth: 160
+    imageHeight: 160
+    # imageWidth: 120
+    # imageHeight: 120
+    imageTitle: Meu Avatar
     buttons:
       - name: Posts
         url: posts
       - name: Tags
         url: tags
+      - name: Portifolio
+        url: portifolio
 
   # home-info mode
   homeInfoParams:
@@ -79,10 +84,10 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/juam-sv"
-    - name: telegram
-      url: "https://t.me/juam_sv"
     - name: github
       url: "https://github.com/juam-sv/"
+    - name: telegram
+      url: "https://t.me/juam_sv"
     
 
   analytics:
@@ -99,7 +104,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/juamsv/hugo/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -115,17 +120,25 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 20
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: portifolio
+      name: Portifolio
+      url: /portifolio/
+      weight: 25
+    - identifier: Resume
+      name: Resume
+      url: https://rxresu.me/juamsv/curriculo
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
