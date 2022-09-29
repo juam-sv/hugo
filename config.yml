@@ -30,17 +30,19 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
+
+  ShareButtons: ["linkedin", "telegram"] # To customize which share buttons to be enabled on page
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -88,8 +90,9 @@ params:
       url: "https://github.com/juam-sv/"
     - name: telegram
       url: "https://t.me/juam_sv"
+    - name: email
+      url: mailto:juam13pb@gmail.com
     
-
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -104,7 +107,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/juamsv/hugo/content"
+    URL: "https://github.com/juam-sv/hugo/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
