@@ -130,15 +130,19 @@ menu:
     - identifier: Posts
       name: Posts
       url: /posts/
-      weight: 20
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 30
     - identifier: portifolio
       name: Portifolio
       url: /portifolio/
-      weight: 25
+      weight: 30
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 30
     - identifier: Resume
       name: Resume
       url: https://rxresu.me/juamsv/curriculo
