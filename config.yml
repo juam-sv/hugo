@@ -1,4 +1,4 @@
-baseURL: "https://jade-sunburst-0d6886.netlify.app/"
+baseURL: "https://juamsv.netlify.app/"
 title: Juam Blog
 paginate: 5
 theme: "hugo-PaperMod"
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Teste title
+  title: Juam Blog
   description: "Juam Blog"
   keywords: [Blog, Portfolio, DevOps]
   author: Juam Sousa
@@ -63,10 +63,9 @@ params:
     enabled: true # needs to be explicitly set
     title: DevOps and SRE
     subtitle: "Welcome to my Blog"
-    # imageUrl: "https://avatars.githubusercontent.com/u/20755569?s=400&u=cacea77d40ace3d368bf70ec062be1f77395608f&v=4"
-    imageUrl: "avatar.png"
-    imageWidth: 160
-    imageHeight: 160
+    imageUrl: "avatar.svg"
+    imageWidth: 240
+    imageHeight: 240
     # imageWidth: 120
     # imageHeight: 120
     imageTitle: Meu Avatar
@@ -123,30 +122,30 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
     - identifier: Posts
       name: Posts
       url: /posts/
-      weight: 30
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
+      weight: 10
     - identifier: portifolio
       name: Portifolio
       url: /portifolio/
-      weight: 30
+      weight: 20
     - identifier: About
       name: About
       url: /about/
       weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
     - identifier: Resume
       name: Resume
       url: https://rxresu.me/juamsv/curriculo
-      weight: 30
+      weight: 50
+    - identifier: Linktree
+      name: Linktree
+      url: https://linktr.ee/juam.sv
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
