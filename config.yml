@@ -21,7 +21,7 @@ params:
   keywords: [Blog, Portfolio, DevOps]
   author: Juam Sousa
   # author: ["Me", "You"] # multiple authors
-  images: ["https://avatars.githubusercontent.com/u/20755569?s=400&u=cacea77d40ace3d368bf70ec062be1f77395608f&v=4"]
+  images: ["avatar.svg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
