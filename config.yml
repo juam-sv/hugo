@@ -130,18 +130,18 @@ menu:
       name: Portifolio
       url: /portifolio/
       weight: 20
-    - identifier: About
-      name: About
-      url: /posts/sobre
-      weight: 30
+    # - identifier: About
+    #   name: About
+    #   url: /posts/sobre
+    #   weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
       weight: 40
-    - identifier: Resume
-      name: Resume
-      url: https://drive.google.com/file/d/1_II3tUIWIKMKbgEqXZhgSQg_-mU0NHZR/view?usp=sharing
-      weight: 50
+    # - identifier: Resume
+    #   name: Resume
+    #   url: https://drive.google.com/file/d/1_II3tUIWIKMKbgEqXZhgSQg_-mU0NHZR/view?usp=sharing
+    #   weight: 50
     - identifier: Linktree
       name: Linktree
       url: https://linktr.ee/juam.sv
